@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header class="menu">
+        <div class="menu--container">
+            <img src="assets/logowhite.png" alt="Logo Alura Geek">
+        </div>
+    </header>
+    <main>
+        <form class="cadastro">
+            <div class="cadastro--title--container">
+                <h1 class="cadastro--title">
+                    ADICIONAR<br>PRODUTO:
+                </h1>
+            </div>
+            <div class="cadastro--inputs--container">
+                <input class="cadastro--inputs" type="text" name="nome" placeholder="nome...">
+                <input class="cadastro--inputs" type="text" name="valor" placeholder="valor...">
+                <label class="cadastro--inputs filelabel" for="cadastroimg">Imagem...</label>
+                <input class="cadastro--inputs" id="cadastroimg" type="file">
+            </div>
+            <div class="cadastro--btns--container">
+                <button class="cadastro--btns" type="submit">
+                    Guardar
+                </button>
+                <button class="cadastro--btns" type="button">
+                    Limpar
+                </button>
+            </div>
+        </form>
+        <section class="produtos">
+            <div class="produtos--title--container">
+                <h1 class="produtos--title">
+                    MEUS PRODUTOS:
+                </h1>
+            </div>
+            <div class="produtos--cadastrados">
+                <div class="produtos--card">
+                    <img src="#" alt="Cartão de produto cadastrado">
+                    <p class="produtos--name">Name</p>
+                    <div class="produtos--excluir">
+                        <p class="produtos--valor">$ 00,00</p>
+                        <img src="#" alt="Excluir Produto">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer--container">
+            <img class="footer--logo" src="#" alt="AluraGeek Logo">
+            <p>DESENVOLVIDO POR WENDEL FRANCY</p>
+            <P>ALURA LATAM - 2024</P>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
