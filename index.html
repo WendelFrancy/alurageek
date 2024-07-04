@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Alura Geek</title>
 </head>
+
 <body>
     <header class="menu">
         <div class="menu--container">
             <img src="assets/logowhite.png" alt="Logo Alura Geek">
         </div>
     </header>
-    <main>
+    <main class="mainbody">
         <form class="cadastro">
             <div class="cadastro--title--container">
                 <h1 class="cadastro--title">
@@ -22,7 +24,7 @@
             <div class="cadastro--inputs--container">
                 <input class="cadastro--inputs" type="text" name="nome" placeholder="nome...">
                 <input class="cadastro--inputs" type="text" name="valor" placeholder="valor...">
-                <label class="cadastro--inputs filelabel" for="cadastroimg">Imagem...</label>
+                <label class="cadastro--inputs filelabel" for="cadastroimg">imagem...</label>
                 <input class="cadastro--inputs" id="cadastroimg" type="file">
             </div>
             <div class="cadastro--btns--container">
@@ -41,20 +43,42 @@
                 </h1>
             </div>
             <div class="produtos--cadastrados">
-                <div class="produtos--card">
-                    <img src="#" alt="Cartão de produto cadastrado">
-                    <p class="produtos--name">Name</p>
-                    <div class="produtos--excluir">
-                        <p class="produtos--valor">$ 00,00</p>
-                        <img src="#" alt="Excluir Produto">
+                <div class="produtos--card--container">
+                    <div class="produtos--card">
+                        <img src="#" alt="Cartão de produto cadastrado">
+                        <p class="produtos--name">Name</p>
+                        <div class="produtos--excluir">
+                            <p class="produtos--valor">$ 00,00</p>
+                            <img src="#" alt="Excluir Produto">
+                        </div>
+                    <div>
+                </div>  
+                <div class="produtos--card--container"> 
+                    <div class="produtos--card">
+                        <img src="#" alt="Cartão de produto cadastrado">
+                        <p class="produtos--name">Name</p>
+                        <div class="produtos--excluir">
+                            <p class="produtos--valor">$ 00,00</p>
+                            <img src="#" alt="Excluir Produto">
+                        </div>
                     </div>
-                </div>
+                </div>   
+                <div class="produtos--card--container"> 
+                    <div class="produtos--card">
+                        <img src="#" alt="Cartão de produto cadastrado">
+                        <p class="produtos--name">Name</p>
+                        <div class="produtos--excluir">
+                            <p class="produtos--valor">$ 00,00</p>
+                            <img src="#" alt="Excluir Produto">
+                        </div>
+                    </div>
+                </div>    
             </div>
         </section>
     </main>
     <footer>
         <div class="footer--container">
-            <img class="footer--logo" src="#" alt="AluraGeek Logo">
+            <img class="footer--logo" src="assets/logoblack.png" alt="AluraGeek Logo">
             <p>DESENVOLVIDO POR WENDEL FRANCY</p>
             <P>ALURA LATAM - 2024</P>
         </div>
@@ -62,4 +86,5 @@
 
     <script src="main.js"></script>
 </body>
+
 </html>
