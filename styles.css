@@ -87,11 +87,25 @@
 .cadastro--btns[type="submit"]{
     background-color: #03318C;
     color: white;
+    cursor: pointer;
+}
+
+.cadastro--btns[type="submit"]:hover{
+    background-color: #011a4d;
+    border: none;
 }
 
 .cadastro--btns[type="button"]{
     background-color: white;
     color: #03318C;
+    cursor: pointer;
+}
+
+.cadastro--btns[type="button"]:hover{
+    background-color: #011a4d;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 
@@ -151,6 +165,7 @@
 
 .produtos--excluir img{
     height: 1.2rem;
+    cursor: pointer;
 }
 
 footer{
