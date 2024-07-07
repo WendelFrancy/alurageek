@@ -22,7 +22,6 @@ URL Link that can land on `<img src="here"`. I used the API FileReader() to do i
 </div>
 
 ## Links
-* Acess the website clicking here -> <a href="https://www.wendelfrancy.com" target="_blank">wendelfrancy.com</a>
 <div>
   <a href="https://www.linkedin.com/in/wendel-francy/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   <a href="mailto:contact@wendelfrancy.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a> 
