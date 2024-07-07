@@ -23,15 +23,15 @@
             </div>
             <div class="cadastro--inputs--container">
                 <input class="cadastro--inputs nome" type="text" name="nome" placeholder="nome..." maxlength="17">
-                <input class="cadastro--inputs valor" type="text" name="valor" placeholder="valor..." maxlength="10">
+                <input class="cadastro--inputs valor" type="number" step="0.01" name="valor" placeholder="valor..." maxlength="10">
                 <label class="cadastro--inputs filelabel" for="cadastroimg">imagem...</label>
-                <input class="cadastro--inputs imagem" id="cadastroimg" type="file">
+                <input class="cadastro--inputs imagem" id="cadastroimg" type="file" accept="image/png, image/jpeg, image/jpg">
             </div>
             <div class="cadastro--btns--container">
-                <button class="cadastro--btns" type="submit">
+                <button class="cadastro--btns guardar" type="submit">
                     Guardar
                 </button>
-                <button class="cadastro--btns" type="button">
+                <button class="cadastro--btns limpar" type="button">
                     Limpar
                 </button>
             </div>
@@ -44,38 +44,7 @@
             </div>
             <div class="produtos--cadastrados">
                 <div class="produtos--card--container">
-                    <div class="produtos--card">
-                        <img src="assets/Niraldo Mateus w_ Effects copy.png" alt="Cartão de produto cadastrado">
-                        <p class="produtos--name">Niraldo Advogado</p>
-                        <div class="produtos--excluir">
-                            <p class="produtos--valor">$ 00,00</p>
-                            <img src="assets/cesto-de-lixo-branco.png" alt="Excluir Produto">
-                        </div>
-                    </div>
-                    <div class="produtos--card">
-                        <img src="assets/niraldoepi.jpg" alt="Cartão de produto cadastrado">
-                        <p class="produtos--name">Niraldo EPI</p>
-                        <div class="produtos--excluir">
-                            <p class="produtos--valor">$ 00,00</p>
-                            <img src="assets/cesto-de-lixo-branco.png" alt="Excluir Produto">
-                        </div>
-                    </div>
-                    <div class="produtos--card">
-                        <img src="assets/niras.png" alt="Cartão de produto cadastrado">
-                        <p class="produtos--name">Niraldo </p>
-                        <div class="produtos--excluir">
-                            <p class="produtos--valor">$ 00,00</p>
-                            <img src="assets/cesto-de-lixo-branco.png" alt="Excluir Produto">
-                        </div>
-                    </div>
-                    <div class="produtos--card">
-                        <img src="assets/NIRALDO.png" alt="Cartão de produto cadastrado">
-                        <p class="produtos--name">Niraldo Ninja</p>
-                        <div class="produtos--excluir">
-                            <p class="produtos--valor">$ 00,00</p>
-                            <img src="assets/cesto-de-lixo-branco.png" alt="Excluir Produto">
-                        </div>
-                    </div>                    
+                                      
 
                 </div>  
             </div>

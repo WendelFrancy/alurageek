@@ -65,6 +65,7 @@
 .filelabel{
     display: block;
     color: #03318C;
+    cursor: pointer;
 }
 
 .cadastro--btns--container{
