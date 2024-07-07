@@ -44,8 +44,6 @@ guardarProduto();
 
 function excluirProduto (){
     const cardDelete = document.querySelectorAll('.cardDelete');
-
-    console.log(cardDelete);
     
     cardDelete.forEach(cardDelete => {
         cardDelete.addEventListener('click', (e) => {
